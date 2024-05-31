@@ -26,7 +26,7 @@ export default function Sender() {
     try {
       setStatus("sending...");
       const response = await axios.post(
-        "https://nextestinof-app.onrender.com/api/",
+        "https://next-app-f60s.onrender.com/api/",
         {
           emails,
         }

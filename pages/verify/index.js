@@ -30,7 +30,7 @@ export default function Verify() {
     try {
       setStatus("sending...");
       const response = await axios.post(
-        "https://nextestinof-app.onrender.com/api/verify",
+        "https://next-app-f60s.onrender.com/api/verify",
         {
           emails,
         }
